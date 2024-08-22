@@ -1,0 +1,7 @@
+cc_prebuilt_binary {
+    name: "llvm19-min-tblgen",
+    srcs: ["llvm19-min-tblgen"],
+
+    device_supported: false,
+    host_supported: true,
+}
